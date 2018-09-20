@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+ *{
+   -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+           box-sizing: border-box;
+
+ }
+
+ .titre {
+   font-size: 18px;
+   font-weight: bold;
+   color : #1b0000;
+ }
+
+
+  .title {
+    height: 50px;
+  }
+
+.header{
+
+  position: relative;
+  height: 50px;
+  background:#03DAC6;
+}
+.leftDrawer{
+  position: relative;
+  float: left;
+  background-color: white;
+  width: 250px;
+  height: 100vh;
+  border-right: 4px solid #03DAC6 ;
+
+}
+.rightDrawer{
+  float: right;
+  background-color: white;
+  width: calc(100vw - 262px);
+  height: 100vh;
+  padding: 150px;
+  padding-top: 10px;
+
+}
+
+.img{
+  width: 247px;
+  height: 250px;
+  background: red;
+}
+
+.product{
+  border: 2px solid grey;
+  height: 350px;
+  width: 250px;
+  float: left;
+  margin: 5px;
+}
